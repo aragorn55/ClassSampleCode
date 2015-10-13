@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1398789361 source:/home/student/Desktop/cPlusPlus_class/LinuxSuperHeroes/SuperHero.cpp
+	"SuperHero.h"
+
+1397753816 /home/student/Desktop/cPlusPlus_class/LinuxSuperHeroes/SuperHero.h
+	<string>
+	<iostream>
+
