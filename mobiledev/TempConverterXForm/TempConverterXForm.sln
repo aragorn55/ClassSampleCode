@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConverterXForm.XF.PCL", "TempConverterXForm.XF.PCL\TempConverterXForm.XF.PCL.csproj", "{9FD1D565-871B-40DE-9975-802B5DB1CC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConverterXForm.XF.PCL.Droid", "Droid\TempConverterXForm.XF.PCL.Droid.csproj", "{B4123F55-54A6-48D3-B5C4-D83393BF5171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD1D565-871B-40DE-9975-802B5DB1CC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD1D565-871B-40DE-9975-802B5DB1CC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD1D565-871B-40DE-9975-802B5DB1CC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD1D565-871B-40DE-9975-802B5DB1CC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4123F55-54A6-48D3-B5C4-D83393BF5171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4123F55-54A6-48D3-B5C4-D83393BF5171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4123F55-54A6-48D3-B5C4-D83393BF5171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4123F55-54A6-48D3-B5C4-D83393BF5171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

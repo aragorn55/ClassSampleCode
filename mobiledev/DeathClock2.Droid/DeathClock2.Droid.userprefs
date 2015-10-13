@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="DeathClock2.Droid\DeathClock2.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Jelly Bean)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\DeathClock\DeathClock.PCL\cDeathCalculator.cs">
+    <Files>
+      <File FileName="DeathClock2.Droid\LifeStyle.cs" Line="1" Column="1" />
+      <File FileName="DeathClock2.Droid\Results.cs" Line="1" Column="1" />
+      <File FileName="DeathClock2.Droid\ControllClass.cs" Line="1" Column="1" />
+      <File FileName="..\DeathClock\DeathClock.PCL\cPerson.cs" Line="1" Column="1" />
+      <File FileName="DeathClock2.Droid\Physical.cs" Line="1" Column="1" />
+      <File FileName="..\DeathClock\DeathClock.PCL\cDeathCalculator.cs" Line="11" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\G\MobileDev\DeathClock2.Droid\DeathClock2.Droid\UIPhysicalActivity.cs" line="18" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DeathClock2.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

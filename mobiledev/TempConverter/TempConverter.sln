@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConverter", "TempConverter\TempConverter.csproj", "{13E1088E-FF3D-4E26-8F40-4D5940532E37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Debug|iPhone.Build.0 = Debug|iPhone
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Release|iPhone.ActiveCfg = Release|iPhone
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Release|iPhone.Build.0 = Release|iPhone
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{13E1088E-FF3D-4E26-8F40-4D5940532E37}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

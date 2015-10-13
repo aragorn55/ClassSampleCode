@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="WorkingWithFiles\WorkingWithFiles.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkingWithFiles\SaveAndLoadText.cs">
+    <Files>
+      <File FileName="WorkingWithFiles\WorkingWithFiles.cs" Line="33" Column="1" />
+      <File FileName="WorkingWithFiles\SaveAndLoadText.cs" Line="10" Column="24" />
+      <File FileName="WorkingWithFiles\PCLXmlResource.xml" Line="1" Column="1" />
+      <File FileName="WorkingWithFiles\ISaveAndLoad.cs" Line="10" Column="32" />
+      <File FileName="Droid\MainActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

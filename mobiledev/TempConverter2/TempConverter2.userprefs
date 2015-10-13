@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Droid\TempConverter2.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_nexs" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TempConverter2\TempConverter2.cs">
+    <Files>
+      <File FileName="TempConverter2\TempConverter2.cs" Line="42" Column="14" />
+      <File FileName="TempConverter2\EBookCell.cs" Line="6" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

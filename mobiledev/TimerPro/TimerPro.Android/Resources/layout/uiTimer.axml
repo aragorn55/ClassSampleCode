@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="00:00:00"
+        p1:layout_width="239.9dp"
+        p1:layout_height="91.2dp"
+        p1:id="@+id/tvDisplay"
+        p1:layout_centerHorizontal="true"
+        p1:gravity="center" />
+    <Button
+        p1:text="Start"
+        p1:layout_width="247.8dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/tvDisplay"
+        p1:id="@+id/btnStart"
+        p1:layout_centerHorizontal="true" />
+    <Button
+        p1:text="Stop"
+        p1:layout_width="253.2dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/btnStart"
+        p1:id="@+id/btnStop"
+        p1:layout_centerHorizontal="true" />
+    <Button
+        p1:text="Reset"
+        p1:layout_width="248.0dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/btnStop"
+        p1:id="@+id/btnReset"
+        p1:layout_centerHorizontal="true" />
+</RelativeLayout>

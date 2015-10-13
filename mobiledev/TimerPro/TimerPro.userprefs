@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="TimerPro.Android\TimerPro.Android.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimerPro.Android\MainActivity.cs">
+    <Files>
+      <File FileName="TimerPro.Android\MainActivity.cs" Line="36" Column="1" />
+      <File FileName="TimerPro.Android\MainTimer.cs" Line="32" Column="29" />
+      <File FileName="TimerPro.Core\CCustomTimer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TimerPro.Android MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="TabDemo2.Droid\TabDemo2.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_12" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TabDemo2.Droid\MainActivity.cs">
+    <Files>
+      <File FileName="TabDemo2.Droid\MainActivity.cs" Line="43" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TabDemo2.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

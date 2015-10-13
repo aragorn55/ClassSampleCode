@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="FormsGallery\FormsGallery.Android\FormsGallery.Android.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_nexs" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FormsGallery\FormsGallery\ScrollViewDemoPage.cs">
+    <Files>
+      <File FileName="FormsGallery\FormsGallery\ListViewDemoPage.cs" Line="61" Column="79" />
+      <File FileName="FormsGallery\FormsGallery\WebViewDemoPage.cs" Line="7" Column="6" />
+      <File FileName="FormsGallery\FormsGallery\ScrollViewDemoPage.cs" Line="26" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

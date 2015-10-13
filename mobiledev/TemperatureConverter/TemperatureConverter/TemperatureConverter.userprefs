@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="TemperatureConverter.UI\TemperatureConverter.UI.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_5_1_WVGA" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TemperatureConverter.UI\SpinnerActivity.cs">
+    <Files>
+      <File FileName="TemperatureConverter.UI\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="TemperatureConverter.UI\DateTimePickerActivity.cs" Line="1" Column="1" />
+      <File FileName="TemperatureConverter.UI\SpinnerActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TemperatureConverter.UI AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

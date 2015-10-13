@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Droid\WorkingWithBehaviors.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_nexs" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkingWithBehaviors\NumericValidationXaml.xaml">
+    <Files>
+      <File FileName="WorkingWithBehaviors\Behaviors\NumericValidationBehavior.cs" Line="8" Column="40" />
+      <File FileName="WorkingWithBehaviors\NumericValidationXaml.xaml" Line="12" Column="22" />
+      <File FileName="WorkingWithBehaviors\WorkingWithBehaviors.cs" Line="11" Column="1" />
+      <File FileName="c:\Users\student\MobileDev\WorkingWithBehaviors\WorkingWithBehaviors\obj\Debug\NumericValidationXaml.xaml.g.cs" Line="20" Column="1" />
+      <File FileName="c:\Users\student\MobileDev\WorkingWithBehaviors\Droid\MainActivity.cs" Line="22" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

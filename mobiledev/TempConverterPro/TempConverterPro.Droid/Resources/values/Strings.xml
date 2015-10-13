@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">TempConverterPro.Droid</string>
+	<string name="city_prompt">Choose a city?</string>
+	<string-array name="city_array">
+		<item>Appleton</item>
+		<item>Portland</item>
+		<item>Seattle</item>
+		<item>San Francisco</item>
+
+	</string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient">
+    <EditText
+        android:id="@+id/txtInput"
+        android:text="100"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center" />
+    <Button
+        android:text="Convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConvert" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1">
+        <RadioButton
+            android:layout_width="111.9dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="To F"
+            android:id="@+id/rbtnF" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To C"
+            android:id="@+id/rbtnC" />
+    </RadioGroup>
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton1"
+        android:textOn="To Celsius"
+        android:textOff="To Fahrenheit" />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:checked="true"
+        android:gravity="center"
+        android:text="Pick a Conversion:"
+        android:textOn="C"
+        android:textOff="F"
+        android:buttonTint="#E049E8" />
+</LinearLayout>

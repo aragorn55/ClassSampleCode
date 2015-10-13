@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="30px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout2"
+        p1:layout_gravity="center">
+        <TextView
+            p1:text="Height"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:id="@+id/textView1" />
+        <EditText
+            p1:inputType="number"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:id="@+id/txtFeet" />
+        <TextView
+            p1:text="ft."
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:id="@+id/ft" />
+        <EditText
+            p1:inputType="number"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:id="@+id/txtInches" />
+        <TextView
+            p1:text="in."
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:id="@+id/in" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="30px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout3">
+        <TextView
+            p1:text="Weight"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Weight"
+            p1:layout_marginTop="7.2dp"
+            p1:layout_marginLeft="12.6dp" />
+        <EditText
+            p1:inputType="number"
+            p1:layout_width="62.3dp"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/txtLbs"
+            p1:layout_marginLeft="1.8dp" />
+        <TextView
+            p1:text="lbs."
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/lbs"
+            p1:layout_marginTop="7.2dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="30px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout5">
+        <TextView
+            p1:text="Gender"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Gender"
+            p1:layout_gravity="center_vertical" />
+        <Switch
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/swbtnGender"
+            p1:textOn="Female"
+            p1:textOff="Male" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="30px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout4">
+        <TextView
+            p1:text="BirthDate"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/BirthDate"
+            p1:layout_marginTop="6.3dp"
+            p1:layout_marginLeft="13.5dp" />
+        <TextView
+            p1:text="00/00/00"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/lblDateDisplay" />
+    </LinearLayout>
+    <Button
+        p1:text="Set BirthDate"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/btnChooseDate"
+        p1:layout_marginTop="14.0dp" />
+    <Button
+        p1:text="LifeStyle Factors"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/btnLifeStyle"
+        p1:layout_alignParentBottom="true"
+        p1:layout_alignParentRight="true"
+        p1:layout_alignParentLeft="true" />
+</LinearLayout>

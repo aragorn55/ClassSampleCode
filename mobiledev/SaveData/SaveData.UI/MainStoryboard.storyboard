@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="31">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733.0"/>
+    </dependencies>
+    <scenes>
+        <!--class Prefix:identifier View Controller-->
+        <scene sceneID="7">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="11">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="10" kind="relationship" relationship="rootViewController" id="9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="697"/>
+        </scene>
+        <scene sceneID="13">
+            <objects>
+                <viewController id="10" sceneMemberID="viewController" customClass="Save">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5"/>
+                        <viewControllerLayoutGuide type="bottom" id="6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="15" customClass="SaveData_UIViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0" green="1" blue="1" alpha="1"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="51" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="146" y="133" width="46" height="30"/>
+                                <state key="normal" title="1st">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue id="92" destination="31" kind="push"/>
+                                    <action selector="btnGet1stDatra_TouchUpInside:" destination="10" id="277" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="52" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="120" y="230" width="118" height="48"/>
+                                <state key="normal" title="Save Data">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSaveData_TouchUpInside:" destination="10" id="281" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="54" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="65" y="342" width="190" height="48"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="55" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="146" y="199" width="46" height="30"/>
+                                <state key="normal" title="2nd">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue id="188" destination="103" kind="push"/>
+                                    <action selector="btn2ndData_TouchUpInside:" destination="10" id="280" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="305" firstAttribute="width" constant="46"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="306" constant="128" firstItem="15" firstAttribute="trailing" secondItem="55" secondAttribute="trailing"/>
+                            <constraint id="307" constant="199" firstItem="55" firstAttribute="top" secondItem="15" secondAttribute="top"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="14"/>
+                    <connections>
+                        <outlet property="btnGet1stDatra" destination="51" id="name-outlet-51"/>
+                        <outlet property="btn2ndData" destination="55" id="name-outlet-55"/>
+                        <outlet property="btnSaveData" destination="52" id="name-outlet-52"/>
+                        <outlet property="txtSaveData" destination="54" id="name-outlet-54"/>
+                        <outlet property="SaveDataViewController" destination="15" id="name-outlet-15"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="16" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559" y="704"/>
+        </scene>
+        <scene sceneID="30">
+            <objects>
+                <viewController id="31" sceneMemberID="viewController" customClass="SaveViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="28"/>
+                        <viewControllerLayoutGuide type="bottom" id="29"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="32">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" borderStyle="roundedRect" minimumFontSize="17" id="96" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="0.0" y="98" width="273" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="298" firstAttribute="width" constant="273"/>
+                                </constraints>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="99" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="3" y="285" width="260" height="45"/>
+                                <state key="normal" title="Save Data1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSaveData1_TouchUpInside:" destination="31" id="276" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="301" firstAttribute="width" constant="260"/>
+                                    <constraint id="302" firstAttribute="height" constant="45"/>
+                                </constraints>
+                            </button>
+                            <pickerView contentMode="scaleToFill" id="295" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" customClass="PickerDataViewModel">
+                                <rect key="frame" x="3" y="386" width="320" height="216"/>
+                            </pickerView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="193" firstItem="99" firstAttribute="width" secondItem="96" secondAttribute="width" constant="0.0"/>
+                            <constraint id="296" constant="0.0" firstItem="96" firstAttribute="leading" secondItem="32" secondAttribute="leading"/>
+                            <constraint id="297" constant="98" firstItem="96" firstAttribute="top" secondItem="32" secondAttribute="top"/>
+                            <constraint id="299" constant="3" firstItem="99" firstAttribute="leading" secondItem="32" secondAttribute="leading"/>
+                            <constraint id="300" constant="238" firstItem="32" firstAttribute="bottom" secondItem="99" secondAttribute="bottom"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnSaveData1" destination="99" id="name-outlet-99"/>
+                        <outlet property="SaveViewController" destination="32" id="name-outlet-32"/>
+                        <outlet property="pkrNames" destination="295" id="name-outlet-295"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1120" y="835"/>
+        </scene>
+        <scene sceneID="102">
+            <objects>
+                <viewController id="103" sceneMemberID="viewController" customClass="DataController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="100"/>
+                        <viewControllerLayoutGuide type="bottom" id="101"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="104" customClass="DataController">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" borderStyle="roundedRect" minimumFontSize="17" id="209" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="118" width="273" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="249" firstAttribute="width" constant="273"/>
+                                </constraints>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="266" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="182" y="278" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSaveData2_TouchUpInside:" destination="103" id="275" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" id="267" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="0.0" y="339" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="332704801.65417802">
+                                    <!--2011-07-18 18:00:01 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="DatePicker1_ValueChanged:" destination="103" id="274" eventType="valueChanged"/>
+                                </connections>
+                            </datePicker>
+                        </subviews>
+                        <constraints>
+                            <constraint id="260" constant="20" firstItem="209" firstAttribute="leading" secondItem="104" secondAttribute="leading"/>
+                            <constraint id="261" constant="118" firstItem="209" firstAttribute="top" secondItem="104" secondAttribute="top"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="DataController" destination="104" id="name-outlet-104"/>
+                        <outlet property="btnSaveData2" destination="266" id="name-outlet-266"/>
+                        <outlet property="DatePicker1" destination="267" id="name-outlet-267"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="105" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1120" y="147"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

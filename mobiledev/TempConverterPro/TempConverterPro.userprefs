@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="TempConverterPro.Droid\TempConverterPro.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_12" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Downloads\TemperatureConverter\TemperatureConverter\TemperatureConverter.UI\MainActivity.cs">
+    <Files>
+      <File FileName="TempConverterPro.Droid\MainActivity.cs" Line="41" Column="58" />
+      <File FileName="..\..\Downloads\TemperatureConverter\TemperatureConverter\TemperatureConverter.UI\MainActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TempConverterPro.Droid MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

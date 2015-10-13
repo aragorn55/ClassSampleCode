@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="TempConverter/TempConverter.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TempConverter/TempConverterViewController.cs">
+    <Files>
+      <File FileName="TempConverter/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="TempConverter/Main.cs" Line="1" Column="1" />
+      <File FileName="TempConverter/TempConverterViewController.cs" Line="5" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
